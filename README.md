@@ -2,7 +2,7 @@
 
 ## base env cofig file
 
-Terminal
+* Terminal
 ```
 $ id $USER
 $ ip route | awk '!/ (docker0|br-)/ && /src/ {print $1}'
