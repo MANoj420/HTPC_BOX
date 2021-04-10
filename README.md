@@ -1,5 +1,8 @@
 # HTPC_BOX
 
+## CONFIG.SH
+* It will create config directory, run at home directory
+
 ## BASE .env CONFIG FILE
 
 * Terminal
@@ -19,3 +22,9 @@ Configure
 * Jakett :- http://localhost:9117/
 * Radarr :- http://localhost:7878/
 * Plex:- http://localhost:32400/
+
+## DOCKER-COMPOSE
+* Modify as per your requirement
+```
+$ docker-compose up
+```
