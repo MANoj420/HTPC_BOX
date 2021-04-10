@@ -1,12 +1,14 @@
 # HTPC_BOX
 
 ## base env cofig file
+
+commands
 ```
 $ id $USER
 $ ip route | awk '!/ (docker0|br-)/ && /src/ {print $1}'
 ```
 
-configure PUID PGID TZ ROOT-directory CONFIG-directory VPN-config
+= Configure PUID PGID TZ ROOT-directory CONFIG-directory VPN-config
 
 ## WEB-PORT 
 * Qbittorrent :- http://localhost:8080/
