@@ -2,13 +2,17 @@
 
 ## base env cofig file
 
-commands
+Terminal
 ```
 $ id $USER
 $ ip route | awk '!/ (docker0|br-)/ && /src/ {print $1}'
 ```
-
-= Configure PUID PGID TZ ROOT-directory CONFIG-directory VPN-config
+Configure
+* PUID 
+* PGID 
+* TZ 
+* ROOT-directory 
+* CONFIG-directory VPN-config
 
 ## WEB-PORT 
 * Qbittorrent :- http://localhost:8080/
