@@ -1,6 +1,6 @@
 # HTPC_BOX
 
-## base env cofig file
+## BASE .env CONFIG FILE
 
 * Terminal
 ```
